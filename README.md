@@ -4,17 +4,19 @@ This repository contains six projects developed during the React track of the Ig
 
 **Note**: This project is currently a work in progress. Only the first project is currently in progress. The other projects have not been started yet.
 
-## Project 01 - "Fundamentos do ReactJS" (In Progress)
+## Project 01 - "Fundamentos do ReactJS" (Done)
 
 In this module, I will develop a React application using Vite, while delving into some of the most fundamental concepts of React. These include componentization, properties, states, immutability, and hooks. Additionally, I will employ TypeScript to introduce static typing to my project. By the end of this project, I will have gained a solid foundation in React development that will enable me to create complex and scalable applications.
 
-**Access the project:** [/01-fundamentos-reactjs/](/01-fundamentos-reactjs/)
+**Access the project:**
+- **Javascript version** [/01-fundamentos-reactjs](/01-fundamentos-reactjs/)
+- **Typescript version** [/01-fundamentos-reactjs-ts](/01-fundamentos-reactjs-ts)
 
-## Project 02 - "Criando SPAs com ReactJS" (Not Started)
+## Project 02 - "Criando SPAs com ReactJS" (In Progress)
 
 TODO
 
-**Access the project:** [/TODO/](#)
+**Access the project:** [/02-ignite-timer](/02-ignite-timer)
 
 ## Project 03 - "Consumo de API e performance no ReactJS" (Not Started)
 
