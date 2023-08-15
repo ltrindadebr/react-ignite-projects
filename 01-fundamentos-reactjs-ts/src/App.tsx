@@ -1,10 +1,10 @@
-import { Header } from "./components/Header";
-import { Sidebar } from "./components/Sidebar";
-import { Post } from "./components/Post";
+import { Header } from "./components/Header.tsx";
+import { Sidebar } from "./components/Sidebar.tsx";
+import { Post, PostType } from "./components/Post.tsx";
 import styles from "./App.module.css";
 import "./global.css";
 
-const posts = [
+const posts: PostType[] = [
   {
     id: 1,
     author: {
@@ -16,13 +16,12 @@ const posts = [
       { type: "paragraph", content: "Fala pessoal 👋" },
       {
         type: "paragraph",
-        content:
-          "Primeiro projetinho do React Ignite da Rocketseat saindo!",
+        content: "Primeiro projetinho do React Ignite da Rocketseat saindo!",
       },
       { type: "link", content: "github.com/ltrindadebr" },
     ],
     publishedAt: new Date("2023-05-08 11:20:00"),
-  }
+  },
 ];
 
 export function App() {
@@ -33,14 +32,7 @@ export function App() {
         <Sidebar />
         <main>
           {posts.map((post) => {
-            return (
-              <Post
-                key={post.id}
-                author={post.author}
-                content={post.content}
-                publishedAt={post.publishedAt}
-              />
-            );
+            return <Post post={post} key={post.id} />;
           })}
         </main>
       </div>
